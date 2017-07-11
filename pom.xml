@@ -11,6 +11,7 @@
     <modules>
         <module>commom</module>
         <module>remoting</module>
+        <module>netty</module>
     </modules>
 
 
