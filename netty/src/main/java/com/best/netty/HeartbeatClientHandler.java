@@ -32,9 +32,9 @@ public class HeartbeatClientHandler extends SimpleChannelInboundHandler<Hearbeat
             /*
              * 重连
              */
-        if(!isStop){
-            connServer();
-        }
+//        if(!isStop){
+//            connServer();
+//        }
     }
 
     @Override

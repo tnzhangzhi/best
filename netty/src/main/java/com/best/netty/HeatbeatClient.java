@@ -51,7 +51,7 @@ public class HeatbeatClient {
             public void run() {
                 try {
                     // 重置计数器
-                    unRecPongTimes = 0;
+//                    unRecPongTimes = 0;
                     // 连接服务端
                     if(ch!=null&&ch.isOpen()){
                         ch.close();
